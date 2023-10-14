@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Professional Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h1>About Me</h1>
+            <p>Your introduction and personal information go here.</p>
+        </section>
+        <section id="experience">
+            <h1>Work Experience</h1>
+            <ul>
+                <li>
+                    <h2>Job Title</h2>
+                    <p>Company Name</p>
+                    <p>Date - Date</p>
+                </li>
+                <!-- Add more job experience items here -->
+            </ul>
+        </section>
+        <section id="projects">
+            <h1>Projects</h1>
+            <ul>
+                <li>
+                    <h2>Project Title</h2>
+                    <p>Description of the project.</p>
+                </li>
+                <!-- Add more project items here -->
+            </ul>
+        </section>
+        <section id="contact">
+            <h1>Contact</h1>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
+
+
+
